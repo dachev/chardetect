@@ -40,7 +40,7 @@ class MainPage(webapp.RequestHandler):
         <body>
           <form id="urlForm" action="api/detect">
             <label for="urlFormUrl">url of the resource to detect:</label>
-            <input id="urlFormUrl" type="text" name="url" value="" />
+            <input id="urlFormUrl" type="text" name="url" value="http://" />
             <input type="submit" value="detect">
           </form>
         </body>
